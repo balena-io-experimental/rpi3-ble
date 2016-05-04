@@ -17,6 +17,6 @@ RUN apt-get install bluez bluez-firmware
 
 WORKDIR usr/src/app
 
-COPY scan.sh /
+COPY scan.sh ./
 
 CMD ["bash", "scan.sh"]
