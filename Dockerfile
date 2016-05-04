@@ -19,4 +19,4 @@ WORKDIR usr/src/app
 
 COPY scan.sh /
 
-CMD["bash", "scan.sh"]
+CMD ["bash", "scan.sh"]
