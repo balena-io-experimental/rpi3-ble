@@ -2,5 +2,5 @@
 /usr/bin/hciattach /dev/ttyAMA0 bcm43xx 921600 noflow -
 
 bluetoothctl
-power on
-scan on
+echo -e 'power on\nquit' | bluetoothctl
+echo -e 'scan on\nquit' | bluetoothctl
